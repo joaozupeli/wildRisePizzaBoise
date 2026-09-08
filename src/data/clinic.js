@@ -3,61 +3,90 @@
  */
 export const clinic = {
   name: 'Wild Rise Pizza Co',
-  tagline: 'Long-fermented sourdough pizza kits, made for home',
+  tagline: 'Long-fermented sourdough pizza kits, finished in your oven',
   shortDescription:
-    'Elevated but approachable Boise micro brand — artisan sourdough pizza kits with weekly pickup and local delivery beyond Hotplate link-in-bio.',
+    'A Boise family brand making artisan sourdough pizza kits for weekly pickup and local delivery — craft dough, weeknight-easy.',
 
   hero: {
-    eyebrow: 'Boise, ID · Artisan kits',
+    eyebrow: 'Boise, ID · Artisan pizza kits',
     titleLead: 'Sourdough pizza',
     titleAccent: 'you finish at home',
     titleTail: '',
-    lead: 'Weekly pickup at a commercial kitchen plus local delivery. Clean food photography, earthy tones, and a Hotplate cart — this site tells the story SEO can\'t find on Instagram alone.',
-    imageAlt: 'Artisan sourdough pizza',
+    lead: 'Long-fermented dough, thoughtfully packed kits, and a weekly rhythm. Pickup at our commercial kitchen window or local delivery — order on Hotplate, then bake it your way.',
+    imageAlt: 'Blistered sourdough pizza with tomato, cheese, and basil',
   },
 
   manifesto: {
     lead: 'We believe',
     statement: 'great pizza can be both craft and weeknight-easy.',
-    body: 'Wild Rise is a family-run Boise brand built around long fermentation and kits that still feel fun. Hotplate handles checkout; an owned page owns the story and "sourdough pizza Boise" search.',
+    body: 'Wild Rise is Natalie Perry’s Boise pizza project — slow fermentation, clean ingredients, and kits that still feel fun. There is no standing storefront. Each week we pack kits for pickup and delivery so you can pull a real sourdough pizza from your own oven.',
   },
 
-  whatsapp: '15555550103',
-  whatsappDefaultMessage: 'Hi Wild Rise! Found your site — how do I order this week\'s kits?',
+  orderUrl: 'https://www.hotplate.com/wildrisepizzaco',
+  instagramUrl: 'https://www.instagram.com/WildrisePizzaCo/',
 
-  phone: 'See Instagram / Hotplate',
-  email: 'Order via Hotplate',
+  whatsapp: '',
+  whatsappDefaultMessage: '',
+
+  phone: '@WildrisePizzaCo',
+  email: 'Order on Hotplate',
 
   address: {
     street: 'Boise area — weekly commercial kitchen pickup',
-    neighborhood: 'Boise',
+    neighborhood: 'Local delivery across the Boise area',
     city: 'Boise',
     state: 'ID',
-    zip: '83702',
-    mapEmbedUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880!2d-116.2!3d43.61!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDM2JzM2LjAiTiAxMTbCsDEyJzAwLjAiVw!5e0!3m2!1sen!2sus!4v1700000000000',
+    zip: '',
+    mapEmbedUrl: 'https://maps.google.com/maps?q=Boise%2C%20ID&z=11&output=embed',
   },
 
   hours: [
-    { days: 'Weekly kits', time: 'See Hotplate / IG for drop' },
+    { days: 'Weekly kits', time: 'Drops posted on Instagram' },
     { days: 'Pickup', time: 'Commercial kitchen window' },
-    { days: 'Delivery', time: 'Local Boise area' },
+    { days: 'Delivery', time: 'Boise area on drop weeks' },
   ],
 
-  insurance: ['Sourdough kits', 'Weekly drops', 'Hotplate ordering', 'Local delivery', 'Pickup', 'Family-run'],
+  insurance: [
+    'Sourdough kits',
+    'Weekly drops',
+    'Hotplate ordering',
+    'Local delivery',
+    'Kitchen pickup',
+    'Family-run',
+  ],
 
   stats: [
-    { value: 1, suffix: '', label: 'Boise micro brand' },
+    { value: 1, suffix: '', label: 'Boise pizza brand' },
     { value: 100, suffix: '%', label: 'Long-fermented dough' },
-    { value: 1, suffix: '', label: 'Hotplate cart' },
-    { value: 7, suffix: '', label: 'Day ferment energy' },
+    { value: 48, suffix: 'hr', label: 'Slow ferment window' },
+    { value: 1, suffix: '', label: 'Weekly kit rhythm' },
   ],
 
   highlights: [
-    { id: 'sourdough', title: 'Long fermentation', description: 'Sourdough kits built for flavor you finish in your own oven.', icon: 'leaf' },
-    { id: 'kits', title: 'Home-kit lineup', description: 'Elevated but approachable — artisan quality that still feels fun.', icon: 'sparkle' },
-    { id: 'order', title: 'Hotplate + story', description: 'Checkout stays on Hotplate; this site owns brand, SEO, and weekly rhythm.', icon: 'clock' },
-    { id: 'community', title: 'Boise family brand', description: 'Community-minded micro brand — separate from Perry\'s Plate blog.', icon: 'users' },
+    {
+      id: 'sourdough',
+      title: 'Long fermentation',
+      description: 'A wild starter and a slow rise — flavor you can only get by waiting.',
+      icon: 'leaf',
+    },
+    {
+      id: 'kits',
+      title: 'Kits for home ovens',
+      description: 'Dough, sauce, and toppings packed so Friday night still feels like a treat.',
+      icon: 'sparkle',
+    },
+    {
+      id: 'order',
+      title: 'Order on Hotplate',
+      description: 'Checkout stays on Hotplate. This page is the story, the kits, and the weekly how-to.',
+      icon: 'bag',
+    },
+    {
+      id: 'community',
+      title: 'Boise, no storefront',
+      description: 'Weekly pickup windows and local delivery — a micro brand, not a walk-in cafe.',
+      icon: 'users',
+    },
   ],
 
   social: {
@@ -66,5 +95,8 @@ export const clinic = {
     youtube: 'https://www.instagram.com/WildrisePizzaCo/',
   },
 
-  legal: { cnes: 'DEMO', cnpj: '—', razaoSocial: 'Wild Rise Pizza Co (demo)' },
+  legal: {
+    entity: 'Wild Rise Pizza Co',
+    note: 'Demo concept — layout, copy, and details are customizable.',
+  },
 }

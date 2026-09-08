@@ -76,7 +76,7 @@ defineEmits(['select'])
   font-size: 0.5625rem;
   padding: 0.3rem 0.55rem;
   border-radius: 999px;
-  background: rgba(242, 239, 232, 0.88);
+  background: rgba(244, 239, 230, 0.88);
   color: var(--ink);
 }
 

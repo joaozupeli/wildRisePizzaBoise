@@ -211,7 +211,7 @@ export function useCountUp(elRef, endValue, options = {}) {
                 const { duration = 2, suffix = '', ease = 'power2.out' } = options
         const counter = { value: 0 }
         const render = () => {
-                el.textContent = `${Math.round(counter.value).toLocaleString('pt-BR')}${suffix}`
+                el.textContent = `${Math.round(counter.value).toLocaleString('en-US')}${suffix}`
         }
 
                 render()
